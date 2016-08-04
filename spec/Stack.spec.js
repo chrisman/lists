@@ -1,5 +1,5 @@
 var tape = require('tape');
-var Stack = require('../Stack');
+var Stack = require('../lib/Stack');
 
 tape('Stack', (assert) => {
   var test, ACTUAL, EXPECTED;

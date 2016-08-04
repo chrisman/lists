@@ -1,4 +1,4 @@
-var Node = require('../Node');
+var Node = require('../lib/Node');
 var tape = require('tape');
 
 tape('Node', (assert) => {

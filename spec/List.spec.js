@@ -1,5 +1,5 @@
 var tape = require('tape');
-var List = require('../List');
+var List = require('../lib/List');
 
 tape('List', (assert) => {
   var test, ACTUAL, EXPECTED;

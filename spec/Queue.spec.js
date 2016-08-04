@@ -1,5 +1,5 @@
 var tape = require('tape');
-var Queue = require('../Queue');
+var Queue = require('../lib/Queue');
 
 tape('Queue', (assert) => {
   var test, ACTUAL, EXPECTED;

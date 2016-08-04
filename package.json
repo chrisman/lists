@@ -1,0 +1,23 @@
+{
+  "name": "lists",
+  "version": "1.0.0",
+  "description": "CHALLENGE DESCRIPTION:",
+  "main": "main.js",
+  "scripts": {
+    "test": "node spec/* | faucet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisman/lists.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisman/lists/issues"
+  },
+  "homepage": "https://github.com/chrisman/lists#readme",
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "tape": "^4.6.0"
+  }
+}
