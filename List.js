@@ -14,7 +14,17 @@ var List = function() {
 }
 
 List.prototype.addFirst = function(data) {
-  // TODO
+  var node = new Node(data);
+  var next = this.head.next;
+
+  this.head.next = node;
+
+  node.prev = this.head;
+  node.next = next;
+
+  next.prev = node;
+
+  return this;
 }
 
 List.prototype.addLast = function(data) {
@@ -32,7 +42,11 @@ List.prototype.addLast = function(data) {
 }
 
 List.prototype.removeFirst = function() {
-  // TODO
+  var first = this.head.next;
+  var data = first.data;
+  this.head.next = first.next;
+  first.next.prev = this.head;
+  return data;
 }
 
 List.prototype.removeLast = function() {
